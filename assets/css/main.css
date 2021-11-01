@@ -817,7 +817,7 @@
     margin: auto;
     width: 62%;
     padding-top: 30%;
-    background: url(/assets/img/img_video.png) top center / cover no-repeat;
+    background: url(../img/img_video.png) top center / cover no-repeat;
 }
 
 .container_video-play-yt{
@@ -884,7 +884,7 @@
 }
 
 .body_picture{
-    background: url(/assets/img/body1.jpg) top center / cover no-repeat;
+    background: url(../img/body1.jpg) top center / cover no-repeat;
     padding-top: 50%;
 }
 
