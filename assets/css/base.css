@@ -1,0 +1,22 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #212121;
+    --text-des-color: #505050;
+    --hover-color: #3fd0d4; 
+}
+
+*{
+    box-sizing: inherit;
+    /* kế thừa thuộc tính của thẻ cha */
+}
+
+html{
+    /* HACK 1rem = 10px*/
+    font-size: 62.5%;
+    line-height: 1.6px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
