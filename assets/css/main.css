@@ -17,6 +17,10 @@
     height: 80px;
 }
 
+.header_nav-logo{
+    margin: auto;
+}
+
 .header_nav-img{
     width: 150px;
     height: 48px;
