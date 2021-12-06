@@ -33,7 +33,7 @@
     width: 100%;
     display: flex;
     margin: 0 38px 0 0;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .header_nav-item{
@@ -41,7 +41,6 @@
     /* min-width: 120px; */
     line-height: 80px;
     display: block;
-    padding: 0 38px;
 }
 
 .header_nav-item--active .header_nav-link{
