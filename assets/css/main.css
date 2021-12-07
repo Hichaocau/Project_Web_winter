@@ -103,7 +103,7 @@
     background-color: var(--white-color);
     width: 257px;
     top: 99%;
-    left: 0;
+    left: -25px;
     display: none;
     animation: Growth ease 0.8s;
     z-index: 2;
