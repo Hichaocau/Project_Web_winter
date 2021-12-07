@@ -575,11 +575,15 @@
 
 .slider_img{
     width: 100%;
-    padding-top: 31.13%;
+    /* padding-top: 31.13%; */
     cursor: pointer;
-    background: url(../img/slider-img-2.jpg) top center / cover no-repeat;
-    transform: scale(1);
-    transition: 0.2s ease-in-out;
+    /* background: url(../img/slider-img-1.jpg) top center / cover no-repeat; */
+    /* transform: scale(1);
+    transition: 0.2s ease-in-out; */
+}
+.slider_picture-img{
+    width: 100%;
+    height: 400px;
 }
 
 .slider_picture{
@@ -590,7 +594,7 @@
 }
 
 .slider_picture:hover .slider_img{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .slider_app{
