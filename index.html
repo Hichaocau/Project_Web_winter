@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
-    <div class="main test">
+    <div class="main">
         <div class="header">
             <div class="grid">
                 <div class="header_nav hide-on-mobile-tablet">
@@ -430,9 +430,7 @@
         
         <div class="slider">
             <div class="slider_picture">
-                <div class="slider_img">
-                    <img onclick="changeImage()" class="slider_picture-img" src="./assets/img/slider-img-2.jpg" alt="">
-                </div>
+                <div class="slider_img"></div>
                 <div class="slider_app">
                     <div class="slider_content">
                         <h2 class="slider_content-heading">Enjoy Your</h2>
@@ -1028,17 +1026,5 @@
             </div>
         </div>
     </div>
-    <script>
-        var index = 1;
-        var changeImage = function(){
-            var imgs = ["./assets/img/slider-img-1.jpg","./assets/img/slider-img-2.jpg","./assets/img/slider-img-3.jpg"]
-            document.getElementsByClassName('slider_picture-img').src = imgs[index];
-            index++;
-            if(index == 3){
-                index = 0;
-            }
-        }
-        // se(changeImage, 1000);
-    </script>
 </body>
 </html>
