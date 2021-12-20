@@ -9,6 +9,7 @@
 *{
     box-sizing: inherit;
     /* kế thừa thuộc tính của thẻ cha */
+    transition: all 0.2s linear;
 }
 
 html{
